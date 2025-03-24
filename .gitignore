@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings and workspace files
+.vscode/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+logs/
+*.log
+*.out
+*.err
+
+# Cache and build artifacts
+.cache/
+build/
+dist/
+*.egg-info/
+*.pytest_cache/
+
+# Streamlit-specific cache
+.streamlit/cache/
+.streamlit/config.toml
+
+# Python virtual environment package manager files
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Ignore large data files (customize as needed)
+data/
+*.csv
+*.json
+*.db
+*.sqlite
+*.h5
+*.pkl
+*.zip
+*.tar.gz
+
+# Ignore deployments and environment-specific files
+*.bak
+*.swp
